@@ -8,17 +8,17 @@ namespace Playlisten.Model
 {
     internal class Track
     {
-        private string songName;
-        private string artist;
-        private string songWriter;
-        private string addDate;
-        private string songLength;
+        private string _songName;
+        private string _artist;
+        private string _songWriter;
+        private string _addDate;
+        private string _songLength;
 
-        public string SongName { get { return songName; } set { songName = value;  } }
-        public string Artist { get { return artist; } set { artist = value; } }
-        public string SongWriter { get { return songWriter; } set { songWriter = value; } }
-        public string AddDate { get { return addDate; } set { addDate = value; } }
-        public string SongLength { get {  return songLength; } set { songLength = value; } }
+        public string SongName { get { return _songName; } set { _songName = value;  } }
+        public string Artist { get { return _artist; } set { _artist = value; } }
+        public string SongWriter { get { return _songWriter; } set { _songWriter = value; } }
+        public string AddDate { get { return _addDate; } set { _addDate = value; } }
+        public string SongLength { get {  return _songLength; } set { _songLength = value; } }
 
         // god morgen
 
